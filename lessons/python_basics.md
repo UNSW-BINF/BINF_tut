@@ -130,7 +130,7 @@ print(tmpbool)
 
 ```
 n = 42.24
-print("The number is: " + str(x))
+print("The number is: " + str(n))
 ```
 
 3. Convert string to an integer with `int()`
