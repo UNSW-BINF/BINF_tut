@@ -30,11 +30,14 @@ mid_i = (len(gene_list_test) )/2
 gene_list_test.insert(mid_i, "IGFBP3")
 ```
 
-4. In your jupyter notebook, create new chunk for this question. Create a dictionary for gene expression of multiple genes for multiple samples. Call it gene_exp_dict. 
+4. In your jupyter notebook, create new chunk for this question. Create a dictionary for gene expression of multiple genes for multiple samples. Call it gene_exp_dict.
+
 ```
 gene_exp_dict = {"RAC1P":[0,8,9,0,1],"HM13":[0,5,6,7,9],"RPSAP9":[3,0,1,9,0],"MIR32":[5,0,3,5,6],"GTF3C2":[0,6,2,5,67],"RBPMS":[0,5,43,2,1],"MTHFSD":[0,9,8,0,4],"SCD5":[0,4,4,5,76], "CALM1P2":[0,2,2,4,5,6]}
 ```
+
 Populate the dictionary with at least 10 genes for 5 samples.
+
 ```
 gene_exp_dict["WASH7P"] = [1,5,6,1,2]
 print(gene_exp_dict["WASH7P"]) 
@@ -43,9 +46,10 @@ gene_exp_dict["MIR32"]  = [10,21,34,0,41]
 
 print(gene_exp_dict.keys())
 print(gene_exp_dict.values())
-
 ```
+
 Write the code to get the gene expression for the 4th gene, 2nd sample.
+
 ```
 print(gene_exp_dict["MIR32"][1]) 
 genes = list(gene_exp_dict.keys())
