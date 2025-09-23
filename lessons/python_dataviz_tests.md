@@ -54,7 +54,6 @@ sns.histplot(iris['sepal_length'],kde=True,bins=20 )
 ```
  
 4. In your jupyter notebook, create new chunk for this question. In this chunk, we will try to repeat similar plots with the iris dataset. Plot a multiple plot figure, with any variable in the iris dataset, across the four different plot types.
-
 ```
 import matplotlib.pyplot as pltt
 fig ,ax = pltt.subplots(figsize=(15,12), ncols=2,nrows=2)
