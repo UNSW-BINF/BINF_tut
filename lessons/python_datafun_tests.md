@@ -36,7 +36,7 @@ def n_powers_file(n, filename):
     return
 n_powers_file(10, "Powers_of_2.txt")
 ```
-4. In your jupyter notebook, create new chunk for this question. In this chunk, read in the "data.csv" file again to the df variable. Drop all the rows with "NA" and then write this to a file named "data_filtered.txt".  
+4. In your jupyter notebook, create new chunk for this question. In this chunk, read in the "data.csv" file again to the df variable. Drop all the rows with "NA" and then write this to a file named "data_filtered.txt".
 ```
 import pandas as pd
 df = pd.read_csv('data/data.csv')
