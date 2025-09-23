@@ -38,6 +38,7 @@ gene_exp_dict = {"RAC1P":[0,8,9,0,1],"HM13":[0,5,6,7,9],"RPSAP9":[3,0,1,9,0],"MI
 
 Populate the dictionary with at least 10 genes for 5 samples.
 
+
 ```
 gene_exp_dict["WASH7P"] = [1,5,6,1,2]
 print(gene_exp_dict["WASH7P"]) 
