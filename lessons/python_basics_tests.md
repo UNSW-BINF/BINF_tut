@@ -3,10 +3,7 @@
 ```
 user = "Sara"
 print( "This is my ", user, " codebook")
-
-# or
 print( f"This is my {user} codebook")
-
 ```
 
 2. In your jupyter notebook, create new chunk for this question. In this chunk, start off by importing the "random" python package (i.e., import random). Then, write some code that assigns a random number to two variables (x and y) with the random.random() function. Then calculate the average value of these variables (x and y), and round the result to the nearest two decimal points. Assign that result to the variable z, and print it out.
@@ -21,7 +18,6 @@ print( round(z,2))
 ```
 
 3. In your jupyter notebook, create new chunk for this question. In this chunk, copy the gene_list variable from the previous code to a new variable called gene_list_test. Add three random genes and remove the third gene in the list. Add a gene to the middle of the list.
-
 ```
 gene_list = ["DDX11L1","WASH7P","MIR6859-1","MIR1302-2HG","MIR1302-2","FAM138A"]
 gene_list_test = gene_list.copy() 
