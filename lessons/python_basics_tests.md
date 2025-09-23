@@ -18,6 +18,7 @@ print( round(z,2))
 ```
 
 3. In your jupyter notebook, create new chunk for this question. In this chunk, copy the gene_list variable from the previous code to a new variable called gene_list_test. Add three random genes and remove the third gene in the list. Add a gene to the middle of the list.
+
 ```
 gene_list = ["DDX11L1","WASH7P","MIR6859-1","MIR1302-2HG","MIR1302-2","FAM138A"]
 gene_list_test = gene_list.copy() 
