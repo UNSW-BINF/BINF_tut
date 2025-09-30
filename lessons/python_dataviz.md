@@ -265,7 +265,7 @@ df_penguins.head()
 > In your jupyter notebook, create new chunk for this question. In this chunk, we will try to repeat similar plots with the `iris` dataset. Plot a multiple plot figure, with any variable in the iris dataset, across the four different plot types. 
 
  
-[Solutions next week]
+[Solutions](python_dataviz_tests.md)
 
 Back to the [homepage](../README.md)
 
