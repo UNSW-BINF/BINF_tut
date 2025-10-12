@@ -249,6 +249,6 @@ df.drop_duplicates(inplace = True)
 > In your jupyter notebook, create new chunk for this question. In this chunk, read in the "data.csv" file again to the df variable. Drop all the rows with "NaN" and then write this to a file named "data_filtered.txt".  
 
 
-[Solutions](../python_datafun_tests.md)
+[Solutions](python_datafun_tests.md)
 
 Back to the [homepage](../README.md)
