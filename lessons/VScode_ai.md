@@ -91,10 +91,8 @@ If a check fails, describe what you observed in chat and ask the agent to fix an
 - Hover over the little hexagon in the title bar and select "Open in Agents"
 - Select "New" at the top left sidebar, and select your emptied or new folder.
 - As before, manage the Trust settings for this.
-
 - Select the Copilot session target and the Agent role.
 - Keep Manual permissions selected and use Auto for the language model if it is available.
-
 - As before we need to send in a prompt. Let's use the same:
 ```
 Create a task list web app in a single index.html file with embedded CSS and JavaScript. Let me add, complete, and delete tasks. Save the tasks in local storage so they persist after a page reload. Use no external libraries.
@@ -113,7 +111,40 @@ Create a task list web app in a single index.html file with embedded CSS and Jav
 - Sign Out In the list of accounts, locate your GitHub or GitHub Copilot Chat account. Click Sign Out.
 
 
+## Just vibes: getting help with bioinformatics pipelines and code
+Eventually, you will need to write out your own pipelines or develop your own software. It might be tempting to go straight to a bot, especially since you don't have to do much! But there is a lot more at stake with academic research - results need to be correct and it is might be difficult to judge/test your code without more knowledge about what is going on and what would make sense. 
+Nevertheless, there are ways to make some of the tasks related to a project or coding task much easier. 
+### Data pre-processing
+A key part of any bioinformatics research is collecting and pre-processing data. In some of the previous tasks, we read in some datasets and checked/changed missing data. We can do this through the agent/chat mode by writing the prompts that will give us some of the additional checks we would do ourselves. Because you know what should be done (i.e., you've done it yourself before!), this is a productivity short-cut. 
+- Make a new folder and copy over the "DatasaurusDozen.txt" from the data wrangling tutorial (https://unsw-binf.github.io/BINF_tut/lessons/python_datafun.html).
+- Open that folder to work within it, and as before, manage the "Trust" settings. 
+- In the chat prompt, type in a prompt to:
+  - Make a python script to read in the "DatasaurusDozen.txt"
+  - Printout information about the data like column names, fractions of missing data, what data types are present etc.
+  - Output a text file with the mean, standard deviation, and correlations of the data.
+- Run the script and check the outputs.
+
+### Q1: How does it compare?
+> How does the script and the output compare to yours from Week 4? What prompt(s) worked best? List all the steps/prompts and changes you had to make. 
+
+### Data analysis 
+- Copy over the "R_dataviz.Rdata" file from Week 8. Recall this file is in R so there will be some extra/different steps.  
+- Prompt the agent/chat to write a second script to read this file in. This script could be an R script, but you might want a notebook/markdown book instead.
+- Or, better yet, see if there is a way to convert it to be used in a python/jupyter notebook.
+- Write a few prompts to answer all the questions and analysis for your Week 8 output.  
+
+### Q2: How does it compare?
+> How does the script and the output compare to yours from Week 8? What prompt(s) worked best? List all the steps/prompts and changes you had to make. How easy was it to do the analysis compared to before, knowing what you had to do?  
+
+
+### Q3: What other analysis can you do - dataset X? 
+> Think of three additional things you might want to do with dataset X that you do not know how to do (or have not done before). Write the prompts to do this. How would you check that the outputs are correct? 
+
+### Q4: What other analysis can you do - dataset Y? 
+> Think of three additional things you might want to do with dataset Y that you do not know how to do (or have not done before). Write the prompts to do this. How would you check that the outputs are correct here?  
+
+ 
   
 
-
+  
 
