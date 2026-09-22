@@ -87,7 +87,9 @@ length(pdf_text_extract)
 
 
 - We can then extract the text from each page. Let's pick page 5, and extract the table that starts around line 5.
+- 
 [!elife_table](../imgs/elife_table.png)
+
 ```{r}
 page <- str_split(pdf_text_extract[[5]], "\n", simplify = TRUE) 
 table <- unlist(page)[5:21]
