@@ -335,8 +335,7 @@ print("BRCA2" in gene_list)
 ```
  
 #### Built-in list methods
-Some basic list methods that are useful include `.append()`, `.remove()`, and .`reverse()`. More methods can be found here: https://www.tutorialsteacher.com/python/list-methods
-
+Some basic list methods that are useful include `.append()`, `.remove()`, and .`reverse()`.  
 ```
 gene_list.append("BRCA2")
 print(gene_list)
