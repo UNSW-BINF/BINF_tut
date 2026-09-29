@@ -23,10 +23,15 @@ print( round(z,2))
 gene_list = ["DDX11L1","WASH7P","MIR6859-1","MIR1302-2HG","MIR1302-2","FAM138A"]
 gene_list_test = gene_list.copy() 
 
-gene_list_test.append([]"BRCA2", "DMR5", "TAF1"]) 
+for a in ["BRCA2", "DMR5", "TAF1"]:
+  gene_list_test.append(a)
+
+# Or:
+gene_list_test +  ["BRCA2", "DMR5", "TAF1"]
+
 gene_list_test.remove("MIR6859-1")
 
-mid_i = (len(gene_list_test) )/2 
+mid_i = int((len(gene_list_test) )/2 )
 gene_list_test.insert(mid_i, "IGFBP3")
 ```
 
