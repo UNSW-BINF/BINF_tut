@@ -29,7 +29,9 @@ Installation of sofware (R, RStudio, Python3 and VSCode) for [windows](/lessons/
 ## Week 9: Even moRe R
 [Functions in R.](/lessons/R_datafun.md) 
 
-## Week 10: Shiny
+## Week 10: Just vibes
+- [Agentic AI in VSCode](/lessons/VScode_ai.md)
+Or  
 - [Shiny - R](/lessons/R_shiny.md)
 - [Shiny - python](/lessons/python_shiny.md)
 
