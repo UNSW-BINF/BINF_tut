@@ -1,5 +1,4 @@
 # Test yourself SOLUTIONS
-Taken/adapted from:
  
 ### Data pre-processing
 A key part of any bioinformatics research is collecting and pre-processing data. In some of the previous tasks, we read in some datasets and checked/changed missing data. We can do this through the agent/chat mode by writing the prompts that will give us some of the additional checks we would do ourselves. Because you know what should be done (i.e., you've done it yourself before!), this is a productivity short-cut. 
